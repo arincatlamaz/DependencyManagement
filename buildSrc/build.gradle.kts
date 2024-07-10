@@ -2,14 +2,12 @@ plugins{
     `kotlin-dsl`
 }
 
-repositories {
-    google()
+repositories{
     mavenCentral()
+    google()
 }
 
 dependencies{
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.20")
-    implementation("com.android.tools.build:gradle:8.1.1")
-
-
+    implementation("com.android.tools.build:gradle:8.5.0")
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.0")
 }
